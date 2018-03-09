@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "PhishAlert",
+  "description": "Detects risky Phishing sites.",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "safe.png"
+  },
+  "permissions": [
+    "tabs", "<all_urls>"
+  ],
+  "background": {
+    "scripts": ["background.js", "jquery-3.2.1.min.js"]
+  }
+}
